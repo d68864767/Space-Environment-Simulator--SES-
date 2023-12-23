@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Custom Radiation Source
+#
+DEF Custom_Radiation_Source CRS 0 40 Y Y 1 F N
+F0 "CRS" 0 0 50 H V C CNN
+F1 "Custom_Radiation_Source" 0 -100 50 H V C CNN
+DRAW
+S -100 -100 100 100 0 1 0 N
+X Anode 1 -200 0 150 R 50 50 1 1 P
+X Cathode 2 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Custom Temperature Sensor
+#
+DEF Custom_Temperature_Sensor CTS 0 40 Y Y 1 F N
+F0 "CTS" 0 0 50 H V C CNN
+F1 "Custom_Temperature_Sensor" 0 -100 50 H V C CNN
+DRAW
+S -100 -100 100 100 0 1 0 N
+X V+ 1 -200 100 150 R 50 50 1 1 P
+X V- 2 -200 -100 150 R 50 50 1 1 P
+X Out 3 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
